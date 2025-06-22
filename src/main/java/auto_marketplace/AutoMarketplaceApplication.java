@@ -1,4 +1,4 @@
-package com.example.auto_marketplace;
+package auto_marketplace;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
