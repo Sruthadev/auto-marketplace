@@ -6,7 +6,6 @@ import lombok.RequiredArgsConstructor;
 
 @Data
 @RequiredArgsConstructor
-@NoArgsConstructor
 public class User {
     private int id;
     private String userName;
