@@ -1,5 +1,6 @@
 package auto_marketplace.model;
 
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -8,10 +9,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Vehicle {
-
-    private Long id;
     private String title;
-    private String type;
     private String brand;
     private String model;
     private int year;
