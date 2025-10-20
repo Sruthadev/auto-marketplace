@@ -6,14 +6,12 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
 
-@Data
-@RequiredArgsConstructor
 @Entity
 @Table(name="CAR")
+@Data
+@RequiredArgsConstructor
 public class Car extends Vehicle{
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+
     private String fuelType;
     private String segment;
     private String transmission;
